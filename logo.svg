@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Gbemisola Olowolafe Memorial Community Secondary School crest">
+  <defs>
+    <path id="gomcss-arc-top" d="M 98.4 347 A 182 182 0 1 1 413.6 347" fill="none"/>
+    <path id="gomcss-arc-bottom" d="M 69.8 363.5 A 215 215 0 0 0 442.2 363.5" fill="none"/>
+    <path id="gomcss-ribbon-text" d="M 194 356 Q 256 374 318 356" fill="none"/>
+  </defs>
+
+  <!-- base disc -->
+  <circle cx="256" cy="256" r="253" fill="#ffffff"/>
+
+  <!-- outer double ring -->
+  <circle cx="256" cy="256" r="247" fill="none" stroke="#15319A" stroke-width="8"/>
+  <circle cx="256" cy="256" r="234" fill="none" stroke="#15319A" stroke-width="3"/>
+
+  <!-- inner double ring -->
+  <circle cx="256" cy="256" r="170" fill="none" stroke="#15319A" stroke-width="3"/>
+  <circle cx="256" cy="256" r="161" fill="none" stroke="#15319A" stroke-width="6"/>
+
+  <!-- circular school name -->
+  <text font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#15319A" letter-spacing="1">
+    <textPath href="#gomcss-arc-top" startOffset="50%" text-anchor="middle">GBEMISOLA OLOWOLAFE MEMORIAL SECONDARY SCHOOL</textPath>
+  </text>
+  <text font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#15319A" letter-spacing="3">
+    <textPath href="#gomcss-arc-bottom" startOffset="50%" text-anchor="middle">✱&#160;&#160;ARE - EKITI&#160;&#160;✱</textPath>
+  </text>
+
+  <!-- shield -->
+  <path d="M 256 146 C 239 157 209 161 180 156 L 180 252 C 180 297 211 319 256 337 C 301 319 332 297 332 252 L 332 156 C 303 161 273 157 256 146 Z"
+        fill="#ffffff" stroke="#15319A" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M 256 146 C 239 157 209 161 180 156 L 180 252 C 180 297 211 319 256 337 C 301 319 332 297 332 252 L 332 156 C 303 161 273 157 256 146 Z"
+        fill="none" stroke="#15319A" stroke-width="2.5" stroke-linejoin="round"
+        transform="translate(256 241) scale(0.915) translate(-256 -241)"/>
+  <!-- quadrant dividers -->
+  <path d="M 256 154 L 256 245" stroke="#15319A" stroke-width="4"/>
+  <path d="M 187 245 L 325 245" stroke="#15319A" stroke-width="4"/>
+
+  <!-- pencil and music note (top-left) -->
+  <g fill="#15319A">
+    <g transform="rotate(38 214 196)">
+      <rect x="192" y="189" width="40" height="14" rx="1"/>
+      <polygon points="232,189 247,196 232,203"/>
+      <rect x="183" y="189" width="7" height="14"/>
+    </g>
+    <circle cx="201" cy="224" r="6.5"/>
+    <rect x="205.5" y="196" width="3.2" height="28"/>
+    <path d="M 205.5 196 q 10 1.5 12 9 l 0 4 q -4 -7 -12 -8 Z"/>
+  </g>
+
+  <!-- graduation cap (top-right) -->
+  <g fill="#15319A">
+    <polygon points="295,177 331,196 295,215 259,196"/>
+    <path d="M 279 205 L 279 221 Q 295 230 311 221 L 311 205 L 295 213 Z"/>
+    <rect x="329" y="196" width="3" height="20"/>
+    <circle cx="330.5" cy="218" r="3.4"/>
+  </g>
+
+  <!-- open book (bottom) -->
+  <g fill="none" stroke="#15319A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M 256 266 C 244 258 224 256 206 260 L 206 301 C 224 297 244 299 256 307"/>
+    <path d="M 256 266 C 268 258 288 256 306 260 L 306 301 C 288 297 268 299 256 307"/>
+    <path d="M 256 266 L 256 307"/>
+  </g>
+  <g stroke="#15319A" stroke-width="2.4" stroke-linecap="round">
+    <path d="M 215 270 L 246 268"/>
+    <path d="M 215 278 L 246 276"/>
+    <path d="M 215 286 L 246 284"/>
+    <path d="M 266 268 L 297 270"/>
+    <path d="M 266 276 L 297 278"/>
+    <path d="M 266 284 L 297 286"/>
+  </g>
+
+  <!-- motto ribbon -->
+  <g fill="#15319A">
+    <polygon points="188,338 150,347 166,376 182,372"/>
+    <polygon points="324,338 362,347 346,376 330,372"/>
+    <path d="M 186 333 L 179 372 C 230 389 282 389 333 372 L 326 333 C 281 349 231 349 186 333 Z"/>
+  </g>
+  <text font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" letter-spacing="0.4">
+    <textPath href="#gomcss-ribbon-text" startOffset="50%" text-anchor="middle">EDUCATION IS THE KEY</textPath>
+  </text>
+</svg>
